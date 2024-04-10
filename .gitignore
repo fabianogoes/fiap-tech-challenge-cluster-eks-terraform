@@ -1,0 +1,25 @@
+# terraform ignore files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+*.tfvars
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.tfout
+
+# idea ignore files
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+*.bak
+*.swp
+*.DS_Store
+
+# vscode ignore files
+.vscode/
+*.code-workspace
+
