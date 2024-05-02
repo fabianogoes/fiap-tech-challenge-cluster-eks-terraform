@@ -1,0 +1,26 @@
+name: Terraform
+on:
+  push:
+    branches:
+      - main
+
+env:
+  CONFIG_DIRECTORY: "./"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform plan
+        id: plan
+        run: terraform plan -no-color
