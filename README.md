@@ -1,7 +1,5 @@
 # AWS EKS Cluster by Terraform
 
-[![Terraform](https://github.com/fabianogoes/fiap-tech-challenge-cluster-eks-terraform/actions/workflows/terraform.yml/badge.svg)](https://github.com/fabianogoes/fiap-tech-challenge-cluster-eks-terraform/actions/workflows/terraform.yml)
-
 Referencia: https://mateusmuller.me/posts/como-criar-cluster-eks-com-terraform/
 
 - [ ] Iniciar AWS Academy
